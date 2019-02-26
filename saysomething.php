@@ -16,15 +16,20 @@
  * under the License.
  */
 
-require_once('./LINEBotTiny.php');
-require_once(__DIR__ . '/myconfig.php');
+require_once( __DIR__ . '/LINEBotTiny.php');
+require_once( __DIR__ . '/myconfig.php');
 
-if (defined(GROUP_ID)) {
-    echo GROUP_ID;
+if (defined('GROUP_ID')) {
+  // do nothing
 } else {
-    define ('GROUP_ID', $groupIdHey);
+    define ('GROUP_ID', $groupIdHey);   // push to testing room
 }
-$content = CONTENT;
+
+if (defined('CONTENT')) {
+    $content = CONTENT;
+} else {
+    die();
+}
 
 // body
 $string_head = '大家平安';
