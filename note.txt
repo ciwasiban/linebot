@@ -3,3 +3,4 @@
 - web Job 排程: https://ithelp.ithome.com.tw/articles/10203649?sc=iThelpR
 - web Job 在 linux 的應用程式下不能用
 - web job 的名稱必須與要執行的程式同名, 才知道要執行那一隻程式
+- 排程設定 https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-bindings-timer#cron-expressions
