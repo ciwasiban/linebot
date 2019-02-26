@@ -6,4 +6,4 @@ $groupIdHey = 'Cfe5d5b0b983b49f7110f25132b494d56'; // 嘿 測試的群組
 $groupIdSlaq = 'C9470388ec8dd2fe9131f87451df71e6e'; // 教會的群組
 $groupIdLdtSlaqElder = 'C00c025bc6caebbb24c72784993bbb005'; // 文健站
 $groupIdLdtJoyce = 'Ca0f788e22237e6a381033105b8dd8325'; // 小潘的那個群組
-$groupIdReadBible = 'groupId:Cc5a531476ffde35fd5030ca51bf25294'; // 讀經群組
+$groupIdReadBible = 'Cc5a531476ffde35fd5030ca51bf25294'; // 讀經群組
