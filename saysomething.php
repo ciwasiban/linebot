@@ -32,9 +32,9 @@ if (defined('CONTENT')) {
 }
 
 // body
-$string_head = '大家平安';
-$string_foot = '感謝~';
-$text = sprintf("%s,\n%s\n%s", $string_head, $content, $string_foot);
+$string_head = '平安';
+$string_foot = '';
+$text = sprintf("%s,\n%s", $string_head, $content);
 
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
