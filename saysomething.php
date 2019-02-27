@@ -34,7 +34,7 @@ if (defined('CONTENT')) {
 // body
 $string_head = '大家平安';
 $string_foot = '感謝~';
-$text = sprintf("%s,\n%s\n%s.", $string_head, $content, $string_foot);
+$text = sprintf("%s,\n%s\n%s", $string_head, $content, $string_foot);
 
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
