@@ -16,17 +16,10 @@
  * under the License.
  */
 
-define ('IS_PRODUCT', FALSE);
-
 require_once('./LINEBotTiny.php');
+require_once('./myconfig.php');
 
-if (TRUE === IS_PRODUCT) {
-    $channelAccessToken = 'rlxJdR+9qb0tXxJqPHMMcJxs3W07TZz2LCbW/tinlQls6JbkKzmZ7TqbqCFv33L10pq294pKbfUYR7pKp7ENvd1lcj8pRFic0frU3bF4ih+cZTC9lKCsRsKdpOyk4rJdUA2Zu2G3Ax3M3FKLwaUZiAdB04t89/1O/w1cDnyilFU=';
-    $channelSecret = '8d08cfd28bb41de82ae7383c34d00818';
-} else {
-    $channelAccessToken = 'EbJxN3isfVMXGwVGpLQipT2737GyWxUAANqztzoO0hK5av7WfwHLdvvJhNbnueVwL/hOc6KdzhRoH89gi8aPKDtIavLEQKUrfL1LiSGgROeWg2X0Yba2ZGSVzypiOufTOesPZ66DbfbRGGf6YpAEgQdB04t89/1O/w1cDnyilFU=';
-    $channelSecret = '5842cbc7d191d5c9a21e46ab8419bdb3';
-}
+define ('GROUP_ID', $groupIdHey);
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 foreach ($client->parseEvents() as $event) {
