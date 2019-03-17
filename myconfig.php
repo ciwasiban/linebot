@@ -1,6 +1,9 @@
 <?php
+/** 小幫手帳號的 **/
 $channelAccessToken = 'rlxJdR+9qb0tXxJqPHMMcJxs3W07TZz2LCbW/tinlQls6JbkKzmZ7TqbqCFv33L10pq294pKbfUYR7pKp7ENvd1lcj8pRFic0frU3bF4ih+cZTC9lKCsRsKdpOyk4rJdUA2Zu2G3Ax3M3FKLwaUZiAdB04t89/1O/w1cDnyilFU=';
 $channelSecret = '8d08cfd28bb41de82ae7383c34d00818';
+
+/** Others **/
 $userId = 'U6004d4a6ee7645aa61f240f0bd5ecc48'; // Fion 的
 $groupIdHey = 'Cfe5d5b0b983b49f7110f25132b494d56'; // 嘿 測試的群組
 $groupIdSlaq = 'C9470388ec8dd2fe9131f87451df71e6e'; // 教會的群組
