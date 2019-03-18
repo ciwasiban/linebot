@@ -10,3 +10,4 @@ $groupIdSlaq = 'C9470388ec8dd2fe9131f87451df71e6e'; // 教會的群組
 $groupIdLdtSlaqElder = 'C00c025bc6caebbb24c72784993bbb005'; // 文健站
 $groupIdLdtJoyce = 'Ca0f788e22237e6a381033105b8dd8325'; // 小潘的那個群組
 $groupIdReadBible = 'Cc5a531476ffde35fd5030ca51bf25294'; // 讀經群組
+$groupIdWater = 'C8be5e1b19436d8cfc0e9e4e5d8278d6c'; // 葉家水塔群組
