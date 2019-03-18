@@ -28,6 +28,7 @@ foreach ($client->parseEvents() as $event) {
             $message = $event['message'];
             switch ($message['type']) {
                 case 'text':
+                    /*
                     $client->pushMessage([
                         'to' => GROUP_ID,
                             'messages' => [
@@ -37,7 +38,8 @@ foreach ($client->parseEvents() as $event) {
                             ]
                         ]
                     ]);
-                    /** this is a sample of reply message to the room that send a request.
+                    */
+                    /** this is a sample of reply message to the room that send a request. **/
                       $client->replyMessage([
                         'replyToken' => $event['replyToken'],
                         'messages' => [
@@ -48,7 +50,6 @@ foreach ($client->parseEvents() as $event) {
                             ]
                         ]
                     ]);
-                    **/
                     break;
                 default:
                     error_log('Unsupported message type: ' . $message['type']);
