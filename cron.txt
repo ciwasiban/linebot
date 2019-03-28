@@ -1,6 +1,6 @@
 #crontab examples https://crontab.guru/examples.html
 #*/5 * * * * cd /Users/apple/gitSite/linebot && /usr/bin/php alertTesting.php
-05 12 * * * cd /Users/apple/gitSite/linebot && /usr/bin/php alertBibleChapter.php
+05 12 * * * cd /Users/apple/gitSite/linebot && /usr/bin/php alertBibleChapter.php chapter
 30 19 * * SAT cd /Users/apple/gitSite/linebot && /usr/bin/php alertSlaqChurch.php
 0 20 * * MON cd /Users/apple/gitSite/linebot && /usr/bin/php alertLdtJoyce.php
 05 20 * * THU cd /Users/apple/gitSite/linebot && /usr/bin/php alertWaterGroup.php

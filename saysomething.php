@@ -32,9 +32,15 @@ if (defined('CONTENT')) {
 }
 
 // body
-$string_head = '平安';
-$string_foot = '';
-$text = sprintf("%s,\n%s", $string_head, $content);
+switch ($saying_mode) {
+    case 'custom':
+        $text = $content;
+        break;
+    default:
+        $string_head = '平安';
+        $string_foot = '';
+        $text = sprintf("%s,\n%s", $string_head, $content);
+}
 
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);

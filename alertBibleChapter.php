@@ -1,6 +1,27 @@
 <?php
 require_once(__DIR__ . '/myconfig.php');
-require_once(__DIR__ . '/bibleSchedule.php');
+
+// get command line argv
+unset($argv1);
+if ( 1 < $argc) {
+    $program = array_shift($argv);
+    $argv1 = array_shift($argv);
+}
+
+// Body
+switch ($argv1) {
+    case 'chapter':
+        require_once(__DIR__ . '/bibleSchedule.php');
+        break;
+    case 'intro':
+        $saying_mode = 'custom';
+        require_once(__DIR__ . '/bibleScheduleIntro.php');
+        break;
+    default:
+        // do nothing
+        die();
+
+}
 
 // get this date
 date_default_timezone_set('Asia/Taipei');
@@ -11,8 +32,10 @@ $thisDate = sprintf('%s/%s', $getdate['mon'], $getdate['mday']);
 $todayBibleChart = $bibleList[$thisDate];
 
 // Body
-$content = sprintf('%s %s', '今日', $todayBibleChart);
-define ('CONTENT', $content);
+$content = $todayBibleChart;
+define ('CONTENT', $todayBibleChart);
 
-define ('GROUP_ID', $groupIdReadBible);
-require_once( __DIR__ . '/saysomething.php');
+if (isset($content)) {
+    define ('GROUP_ID', $groupIdReadBible);
+    require_once( __DIR__ . '/saysomething.php');
+}
