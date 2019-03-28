@@ -7,7 +7,6 @@ $content = get_data_from_url($url);
 if (isHTML($content)) {
     die();
 }
-var_dump($content);exit;
 $bibleList = [];
 $cnt = count($content);
 if (0 < $cnt) {
@@ -27,7 +26,8 @@ if (0 < $cnt) {
 
             // make array $bibleList
             if (!empty($date) && !empty($message)) {
-               $bibleList[$date] = $message;
+                $message = str_replace(" ", "\n", $message);    // workaround: fix tsv file has no line break character
+                $bibleList[$date] = $message;
             }
         }
     }
