@@ -6,4 +6,4 @@
 0 20 * * MON cd /Users/apple/gitSite/linebot && /usr/bin/php alertLdtJoyce.php
 05 20 * * THU cd /Users/apple/gitSite/linebot && /usr/bin/php alertWaterGroup.php
 07 08 29 * * cd /Users/apple/gitSite/linebot && /usr/bin/php alertSlaqElder.php photo
-0 20 * * SUN cd /Users/apple/gitSite/linebot && /usr/bin/php alertLdtJoyce.php
+0 20 * * SUN cd /Users/apple/gitSite/linebot && /usr/bin/php alertLdtMalugo.php
