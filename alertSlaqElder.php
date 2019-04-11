@@ -9,6 +9,8 @@ if ( 1 < $argc) {
     $argv1 = array_shift($argv);
 }
 
+$argv1 = 'photo';
+
 // Body
 switch ($argv1) {
     case 'photo':
