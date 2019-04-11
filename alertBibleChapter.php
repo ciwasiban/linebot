@@ -8,6 +8,9 @@ if ( 1 < $argc) {
     $argv1 = array_shift($argv);
 }
 
+// force to alert intro
+$argv1 = 'intro';
+
 // Body
 switch ($argv1) {
     case 'chapter':
