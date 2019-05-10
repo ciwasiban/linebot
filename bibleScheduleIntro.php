@@ -26,7 +26,7 @@ if (0 < $cnt) {
 
             // make array $bibleList
             if (!empty($date) && !empty($message)) {
-                $message = str_replace("  ", "\n\n", $message);    // workaround: fix tsv file has no line break character
+                $message = str_replace("[br]", "\n", $message);    // workaround: fix tsv file has no line break character
                 $bibleList[$date] = $message;
             }
         }
