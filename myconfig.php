@@ -12,3 +12,4 @@ $groupIdLdtJoyce = 'Ca0f788e22237e6a381033105b8dd8325'; // 小潘的那個群組
 $groupIdReadBible = 'Cc5a531476ffde35fd5030ca51bf25294'; // 讀經群組
 $groupIdWater = 'C8be5e1b19436d8cfc0e9e4e5d8278d6c'; // 葉家水塔群組
 $groupIdLdtMalugo = 'Cef48288d66d9d8b124351cbee94f8e53'; // 小組: 子凡、佑姍
+$groupIdLdtUpah = 'Cd3ec408e0b367d0f4a8d5c50a50808d2'; // 小組：婉容
