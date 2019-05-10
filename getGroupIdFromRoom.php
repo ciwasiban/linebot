@@ -28,17 +28,14 @@ foreach ($client->parseEvents() as $event) {
             $message = $event['message'];
             switch ($message['type']) {
                 case 'text':
-                    /*
-                    $client->pushMessage([
-                        'to' => GROUP_ID,
-                            'messages' => [
-                            [
-                                'type' => 'text',
-                                'text' => 'groupId:' . $event['source']['groupId']
-                            ]
-                        ]
-                    ]);
-                    */
+                    $text = $event['message']['text'];
+                    // If the keyword is right, reply it.
+                    if (preg_match("/小幫手給我/i", $text)) {
+                        //echo "條件符合"
+                    } else {
+                        //echo "條件不符合";
+                        break;
+                    }
                     /** this is a sample of reply message to the room that send a request. **/
                       $client->replyMessage([
                         'replyToken' => $event['replyToken'],
