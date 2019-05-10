@@ -14,7 +14,7 @@ $argv1 = 'photo';
 // Body
 switch ($argv1) {
     case 'photo':
-        $content = sprintf('%s', '月底到了，麻煩凱悅每月最後一天整理 Line 相簿備份到電腦,感謝~');
+        $content = sprintf('%s', '月底到了，麻煩 Pisuy 每月最後一天整理 Line 相簿備份到電腦,感謝~');
         break;
     default:
         // do nothing
