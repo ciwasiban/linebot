@@ -2,7 +2,7 @@
 require_once(__DIR__ . '/myconfig.php');
 
 // Body
-$content = sprintf('%s', '明天 10:00 小組大家都ok嗎？');
+$content = sprintf('%s', '子凡平安，明天(六)下午 14:00 小組 ok 嗎？另外，跟你確認下一次門訓的時間。');
 define ('CONTENT', $content);
 
 define ('GROUP_ID', $groupIdLdtMalugo);
