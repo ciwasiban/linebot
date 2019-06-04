@@ -29,24 +29,43 @@ foreach ($client->parseEvents() as $event) {
             switch ($message['type']) {
                 case 'text':
                     $text = $event['message']['text'];
-                    // If the keyword is right, reply it.
-                    if (preg_match("/小幫手給我/i", $text)) {
-                        //echo "條件符合"
-                    } else {
-                        //echo "條件不符合";
-                        break;
-                    }
+					$word = "";
+					$pattern = '小幫手給我';
+					if (preg_match("/$pattern/i", $text, $matches, PREG_OFFSET_CAPTURE)) {
+						//echo "條件符合";
+						$item = trim(substr($text, $matches[0][1] + strlen($pattern)));
+						if ( 0 < strlen($item)) {
+							switch ($item) {
+								case 'id':
+									$word = 'groupId:' . $event['source']['groupId'];
+									break;
+								case '行事曆':
+									$word = "水田教會2019行事曆：https://drive.google.com/file/d/1FviZL7IEtOQXtgcNtVQk_0TqkuTGfIa_/view?usp=sharing";
+									break;
+									break;
+								default:
+									// do nothing
+							}
+						} else {
+							// do nothing
+						}
+					} else {
+						//echo "條件不符合";
+					}
+
                     /** this is a sample of reply message to the room that send a request. **/
-                      $client->replyMessage([
-                        'replyToken' => $event['replyToken'],
-                        'messages' => [
-                            [
-                                'type' => 'text',
-                                'text' => 'groupId:' . $event['source']['groupId']
-                                //'text' => json_encode($event)
-                            ]
-                        ]
-                    ]);
+					if (!empty($word)) {
+						$client->replyMessage([
+							'replyToken' => $event['replyToken'],
+							'messages' => [
+								[
+									'type' => 'text',
+									'text' => $word
+									//'text' => json_encode($event)
+								]
+							]
+						]);
+                    }
                     break;
                 default:
                     error_log('Unsupported message type: ' . $message['type']);
