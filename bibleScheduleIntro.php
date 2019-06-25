@@ -3,10 +3,6 @@ $url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRWXBZqudXiNu8iiekrXVaWp
 $url .= "&_t=" . time();
 $content = get_data_from_url($url);
 
-// if content is html then do nothing
-if (isHTML($content)) {
-    die();
-}
 $bibleList = [];
 $cnt = count($content);
 if (0 < $cnt) {
@@ -57,10 +53,4 @@ function get_data_from_url($url) {
 	curl_close($ch);
 
 	return $xlsData;
-}
-
-function isHTML($text){
-   $processed = htmlentities($text);
-   if($processed == $text) return false;
-   return true; 
 }
