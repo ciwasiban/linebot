@@ -18,3 +18,4 @@ $groupIdYouthMemberCenter = 'Cdc56edb5d9f9209da18f963aa574602b'; // 社青核心
 $groupIdLdtBotu = 'C91becdfccf6c3297a520c986837af73a'; // 小組: botu、香
 $groupIdLdtYawi = 'Cb67b66bed20173217d275d257e343b2e'; // 小組: 蒙恩、沛恩
 $groupIdLdtJing = 'Cae21b3fc5e784160708425812113fcf6'; // 小組: 美菁姐
+$groupIdWorship = 'C5ca2fdf48b1c19224f933c0c5e2c2842'; // 敬拜團小組
