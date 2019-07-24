@@ -11,12 +11,17 @@ $channelSecretOfBible = '31beb62bb9b2591a3186608b50707e94';
 $ldtChannelAccessToken = 'wa5xEpn1f21C0+1lUGSvsgvmc3gdLDrYurv8z3Tr1DbbQ/0WlcciRuK5/sggweWDEO0jD6ApurDK34VYvYZ9rIvKPFPRU0CuAJHoC7+UUSdJclqBis+gIbswVkuyqaij+R6UpVEwsvLFsxFXcwH5/gdB04t89/1O/w1cDnyilFU=';
 $ldtChannelSecret = 'ceac040a0273af55553dad15398f8b96';
 
+/** 團契小幫手帳號 **/
+$fellowChannelAccessToken = 'JggqFLhdueZOx86IdvI9lA2iyZkM3ntylzegCYqj+1IcLnBxR7DNVmSbVrig01DCdRL30YvB9hA8Qty8zJaW71xluxkwK6M/86UpMfvtAGf3RaxpNNFV0W/VXfpOmp1xS6WpmyfxWr9pujjUiNsSIgdB04t89/1O/w1cDnyilFU=';
+$fellowChannelSecret = '33e9c4b01aa1e4bb6f55014556c66caf';
+
 
 /** Others **/
 $userId = 'U6004d4a6ee7645aa61f240f0bd5ecc48'; // Fion 的
 $groupIdHey = 'Cfe5d5b0b983b49f7110f25132b494d56'; // 嘿 測試的群組
 $groupIdHeyOfBible = 'C040a5d915899399206e450e9db77df17'; // 嘿 測試的群組
 $groupIdHeyOfLdt = 'C456f474996c60326f7e55bf5dfe66c59'; // 嘿 測試的群組
+$groupIdHeyOfFellow = 'C18a69d6ca25a4b57f402d18323c31f34'; // 嘿 測試的群組
 $groupIdSlaq = 'C9470388ec8dd2fe9131f87451df71e6e'; // 教會的群組
 $groupIdLdtSlaqElder = 'C00c025bc6caebbb24c72784993bbb005'; // 文健站
 $groupIdLdtJoyce = 'Ca0f788e22237e6a381033105b8dd8325'; // 小潘的那個群組
