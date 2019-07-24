@@ -1,7 +1,7 @@
 <?php
 /** 小幫手帳號的 **/
-$channelAccessToken = 'rlxJdR+9qb0tXxJqPHMMcJxs3W07TZz2LCbW/tinlQls6JbkKzmZ7TqbqCFv33L10pq294pKbfUYR7pKp7ENvd1lcj8pRFic0frU3bF4ih+cZTC9lKCsRsKdpOyk4rJdUA2Zu2G3Ax3M3FKLwaUZiAdB04t89/1O/w1cDnyilFU=';
-$channelSecret = '8d08cfd28bb41de82ae7383c34d00818';
+$channelAccessToken = 'w0rCvK6t74XNg6v7bngTV56S8Vdwuk0XwaStHBF1sFBuRcjgu9P1FwrmjyLW7DD1xiZ51oERrnD7Sm2SbEAmsFZbr3BZCi5/cVzJfy3lhe8YVDCbvJwBpOPn+81K/duNeAMzH2aFn6CMRUxWKDHtdwdB04t89/1O/w1cDnyilFU=';
+$channelSecret = '8ae3cb281ed7bb2e610a88b62e8c887f';
 
 /** 聖經小幫手帳號 **/
 $channelAccessTokenOfBible = 'gYiZgJGnmJN89RlhdpNSlxhBnCSc/l7SDWHQxNLetxPE6K8BQevRDazf0BZtcp/8/cKe0J9JP4GSHVtX/norxNRLhsz6h+AAraNRGejDSaYTI2WBaEA95s4enM8F6kqZfL5rY9AFrsW6G7ylQbcB1wdB04t89/1O/w1cDnyilFU=';
@@ -18,7 +18,7 @@ $fellowChannelSecret = '33e9c4b01aa1e4bb6f55014556c66caf';
 
 /** Others **/
 $userId = 'U6004d4a6ee7645aa61f240f0bd5ecc48'; // Fion 的
-$groupIdHey = 'Cfe5d5b0b983b49f7110f25132b494d56'; // 嘿 測試的群組
+$groupIdHey = 'Cfc23851197cef1d51e54637a8755cd25'; // 嘿 測試的群組
 $groupIdHeyOfBible = 'C040a5d915899399206e450e9db77df17'; // 嘿 測試的群組
 $groupIdHeyOfLdt = 'C456f474996c60326f7e55bf5dfe66c59'; // 嘿 測試的群組
 $groupIdHeyOfFellow = 'C18a69d6ca25a4b57f402d18323c31f34'; // 嘿 測試的群組
