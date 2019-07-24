@@ -1,8 +1,8 @@
 <?php
 require_once(__DIR__ . '/myconfig.php');
 
-define("CHANNEL_ACCESS_TOKEN", $channelAccessToken);
-define("CHANNEL_SECRET", $channelSecret);
+define("CHANNEL_ACCESS_TOKEN", $fellowChannelAccessToken);
+define("CHANNEL_SECRET", $fellowChannelSecret);
 
 date_default_timezone_set('Asia/Taipei');
 
