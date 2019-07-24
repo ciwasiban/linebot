@@ -1,6 +1,9 @@
 <?php
 require_once(__DIR__ . '/myconfig.php');
 
+define("CHANNEL_ACCESS_TOKEN", $channelAccessToken);
+define("CHANNEL_SECRET", $channelSecret);
+
 
 // get command line argv
 unset($argv1);

@@ -1,6 +1,8 @@
 <?php
 require_once(__DIR__ . '/myconfig.php');
 
+define("CHANNEL_ACCESS_TOKEN", $channelAccessToken);
+define("CHANNEL_SECRET", $channelSecret);
 
 $nowMonth = date('n', time());
 $nextMonth = $nowMonth + 1;

@@ -1,6 +1,9 @@
 <?php
 require_once(__DIR__ . '/myconfig.php');
 
+define("CHANNEL_ACCESS_TOKEN", $channelAccessTokenOfBible);
+define("CHANNEL_SECRET", $channelSecretOfBible);
+
 // get command line argv
 unset($argv1);
 if ( 1 < $argc) {

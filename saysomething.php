@@ -31,6 +31,7 @@ if (defined('CONTENT')) {
     die();
 }
 
+
 // body
 switch ($saying_mode) {
     case 'custom':
@@ -42,8 +43,7 @@ switch ($saying_mode) {
         $text = sprintf("%s,\n%s", $string_head, $content);
 }
 
-
-$client = new LINEBotTiny($channelAccessToken, $channelSecret);
+$client = new LINEBotTiny(CHANNEL_ACCESS_TOKEN, CHANNEL_SECRET);
 $client->pushMessage([
     'to' => GROUP_ID,
     'messages' => [
