@@ -28,11 +28,21 @@ require_once( __DIR__ . '/saysomething.php');
 # Week of the month = Week of the year - Week of the year of first day of month + 1
 function weekOfMonth() {
     // Get this day
-    $thisDate = strtotime(date('Y-m-d', time()));
+    $thisWeekOfMonth = intval(date("W", strtotime(date('Y-m-d', time()))));
 
     //Get the first day of the month.
-    $firstOfMonth = strtotime(date("Y-m-01", time()));
+    $firstWeekOfMonth = intval(date("W", strtotime(date("Y-m-01", time()))));
 
-    //Apply above formula.
-    return intval(date("W", $thisDate)) - intval(date("W", $firstOfMonth)) + 1;
+    // GET last day of this month
+    $lastWeekOfMonth = intval(date("W", strtotime("last day of this month")));
+
+    // GET next week no.
+    $nextWeek = 1;
+    if ($thisWeekOfMonth == $lastWeekOfMonth) {
+        // $nextWeek = 1;
+    } else {
+        $nextWeek = $thisWeekOfMonth - $firstWeekOfMonth + 1;
+    }
+
+    return $nextWeek;
 }
