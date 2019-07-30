@@ -17,7 +17,7 @@ $argv1 = 'photo';
 // Body
 switch ($argv1) {
     case 'photo':
-        $content = sprintf("%s \n%s \n%s", '月底到了，幾件事情報告：', '1. 麻煩 Pisuy 每月最後一天整理 Line 相簿備份到電腦', '2. 油資還沒有申請的請盡快申請.', '感謝~');
+        $content = sprintf("%s \n%s \n%s \n%s", '月底到了，幾件事情報告：', '1. 麻煩 @pisuy-玉美 每月最後一天整理 Line 相簿備份到電腦', '2. 油資還沒有申請的請盡快申請.', '感謝~');
         break;
     default:
         // do nothing
