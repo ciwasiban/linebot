@@ -27,6 +27,6 @@ switch ($argv1) {
 // Alert
 if (isset($content)) {
     define ('CONTENT', $content);
-    define ('GROUP_ID', $groupIdLdtSlaqElder);
+    define ('GROUP_ID', $groupIdSlaqElder);
     require_once( __DIR__ . '/saysomething.php');
 }
