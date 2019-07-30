@@ -18,7 +18,7 @@ $fellowChannelSecret = '33e9c4b01aa1e4bb6f55014556c66caf';
 
 /** Others **/
 $userId = 'U6004d4a6ee7645aa61f240f0bd5ecc48'; // Fion 的
-#$groupIdHey = 'Cfc23851197cef1d51e54637a8755cd25'; // 嘿 測試的群組
+$groupIdHey = 'Cfc23851197cef1d51e54637a8755cd25'; // 嘿 測試的群組
 $groupIdHeyOfBible = 'C040a5d915899399206e450e9db77df17'; // 嘿 測試的群組
 $groupIdHeyOfLdt = 'C456f474996c60326f7e55bf5dfe66c59'; // 嘿 測試的群組
 $groupIdHeyOfFellow = 'C18a69d6ca25a4b57f402d18323c31f34'; // 嘿 測試的群組
