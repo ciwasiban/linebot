@@ -17,7 +17,7 @@ $cnt = count($birthList);
 // Body
 if ($cnt > 0) {
     $str = implode("\n", $birthList);
-    $content = sprintf("%s月%s：\n%s\n\n%s", $nextMonth, '壽星有', $str, '煩請麗雅記得協助購買貼心小禮物~感謝.');
+    $content = sprintf("%s月%s：\n%s\n\n%s", $nextMonth, '壽星有', $str, '煩請 @麗雅 記得協助購買貼心小禮物~感謝.');
     define ('CONTENT', $content);
 
 
