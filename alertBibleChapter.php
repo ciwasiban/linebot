@@ -1,5 +1,4 @@
 <?php
-exit;
 require_once(__DIR__ . '/myconfig.php');
 
 define("CHANNEL_ACCESS_TOKEN", $channelAccessTokenOfBible);
