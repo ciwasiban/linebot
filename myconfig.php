@@ -33,5 +33,5 @@ $groupIdLdtCiwas = 'C51f66e5c8fed75044ad6673f62c7ecfe'; // 小組：ciwas akat
 $groupIdYouthMemberCenter = 'C08af7c902c9f46d78fc4191662c1133d'; // 社青核心小組
 $groupIdLdtBotu = 'C6f1e9e1941b272e9eb540cd8dd91869e'; // 小組: botu、香
 $groupIdLdtYawi = 'C3f8362a0c6fdc26bd4a469a554b73475'; // 小組: 蒙恩、沛恩
-$groupIdLdtJing = 'C0c3d35d75270a863f1de373a8cb631bf'; // 小組: 美菁姐
+$groupIdLdtJing = 'C42ac8ce83cb53ecec7ff50f9895b059f'; // 小組: 美菁姐
 $groupIdSlaqWorship = 'C2cf5bab8e84a6b3163cd3d8ce32b5520'; // 敬拜團小組
