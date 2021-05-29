@@ -13,4 +13,4 @@
 - 更換機器人的話，group id 也會被連動，所以程式也要 renew 各群組的 group id.
 
 2021/5/29
-- Using SSH keys on my new Macbook Air.
+- Using SSH keys on new Macbook Air.
